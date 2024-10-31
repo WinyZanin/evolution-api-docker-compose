@@ -1,6 +1,6 @@
 services:
   api:
-    image: atendai/evolution-api:v2.1.1 # verify the latest version at https://hub.docker.com/r/atendai/evolution-api
+    image: atendai/evolution-api:latest # verify the latest version at https://hub.docker.com/r/atendai/evolution-api
     restart: always
     ports:
       - 8080:8080
